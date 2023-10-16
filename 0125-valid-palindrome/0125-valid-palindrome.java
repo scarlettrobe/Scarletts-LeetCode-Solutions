@@ -5,8 +5,8 @@ class Solution {
         int j = s.length() - 1;
 
         while (i < j){
-            char start = s.charAt(i);
-            char end = s.charAt(j);
+            Character start = s.charAt(i);
+            Character end = s.charAt(j);
 
             if(!Character.isLetterOrDigit(start)){
                 i += 1;
